@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Volvo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" sizes="16x16" href="https://www.volvocars.com/static/shared/images/favicons/favicon-16x16.v2.png" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="./js/function.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <div class="shadow">shadow</div>
+    <div class="gnb">
+      <div class="gnb_con">
+        <ul>
+          <li class="logo_mnu"><a href="#">Volvo</a>
+            <ol>
+              <li class="close"><a href="#">X</a></li>
+            </ol>
+          </li>
+          <li><a href="#">Car Configurator</a></li>
+          <li><a href="#">Buy<span>></span></a></li>
+          <li><a href="#">Find A Dealer</a></li>
+          <li><a href="#">Service<span>></span></a></li>
+          <li><a href="#">Used</a></li>
+          <li><a href="#">Why Volvo<span>></span></a></li>
+          <li><a href="#">More<span>></span></a></li>
+          <li class="kr"><a href="#">Korea<span>></span></a></li>
+        </ul>
+        <div class="sns">
+          <span><i class="fab fa-facebook"></i></span>
+          <span><i class="fab fa-instagram"></i></span>
+          <span><i class="fab fa-youtube"></i></span>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="gnb_top">
+        <h1 class="logo"><a href="#">VOLVO</a></h1>
+        <div class="gnb_right">
+          <p><a href="#">Our Cars</a></p>
+          <p class="mnu"><a href="#">메뉴</a></p>
+        </div>
+      </div>
+
+      <!-- 스크롤 내릴시 메뉴 고정(h 줄어듬:적용해야함!!!!) -->
+      <div class="gnb_tit">
+        <ul class="tit_right">
+
+          <li class="price">소비자 판매가격 <b>KRW112,700,000</b></li>
+          <li><button>탐색하기</button></li>
+        </ul>
+        <div class="tit_left">
+          <h2 class="tit">Volvo XC90 Recharge</h2>
+          <p><a href="#">하이브리드</a></p>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <article class="visual">
+        <h2 class="sr-only">Volvo XC90 Recharge 하이브리드</h2>
+        <video style="width: 100%; height: auto;"  autoplay muted loop playsinline>
+          <source src="./images/visual-play.mp4" type="video/mp4">
+        </video>
+        <span class="btn_auto">auto</span>
+      </article>
+
+      <!-- 완료 (확완) -->
+      <div class="sec-con">
+        <div class="life_txt">
+          <h3>For life.</h3>
+          <p>가족의 안전을 지키기 위해 설계한 플러그인 하이브리드 SUV는 <span>이제 가족의 미래까지 보호합니다.</span></p>
+          <ul>
+            <li>Hybrid
+              <ol>
+                <li>Plug-in</li>
+              </ol>
+            </li>
+            <li><span>Up to</span>53<span>km</span>
+              <ol>
+                <li>Electric range</li>
+              </ol>
+            </li>
+            <li>AWD
+              <ol>
+                <li>Drive</li>
+              </ol>
+            </li>
+            <li>7
+              <ol>
+                <li>Seats</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 클릭 슬라이드 해야햠 나머지확완(확완) -->
+        <article class="slide">
+          <h2 class="sr-only">XC90 Recharge 상세사진슬라이드</h2>
+          <div class="shadow">shadow</div>
+          <div class="click_slide">
+            <div class="slide_container">
+              <ul class="slide">
+                <li>
+                  <video autoplay muted loop playsinline>
+                    <source src="./images/s_01.mp4" type="video/mp4">
+                  </video>
+                </li>
+                <li><img src="./images/s_02.webp" alt="#"></li>
+                <li><img src="./images/s_03.webp" alt="#"></li>
+                <li><img src="./images/s_04.webp" alt="#"></li>
+                <li><img src="./images/s_05.webp" alt="#"></li>
+                <li><video autoplay muted loop playsinline>
+                    <source src="./images/s_06.mp4" type="video/mp4">
+                  </video></li>
+                <li><img src="./images/s_07.webp" alt="#"></li>
+                <li><img src="./images/s_08.webp" alt="#"></li>
+                <li><img src="./images/s_09.webp" alt="#"></li>
+                <li><img src="./images/s_10.webp" alt="#"></li>
+              </ul>
+            </div>
+            <a href="#" class="prev">prev</a>
+            <a href="#" class="next">next</a>
+            <button>close</button>
+          </div>
+          <div class="con">
+            <div class="top">
+              <a href="#"><img src="./images/slide_top.jpg" alt="XC90 Recharge을 위에서 바란본 사진"></a>
+            </div>
+            <div class="btm">
+              <a href="#" class="left">
+                <video autoplay muted loop playsinline>
+                  <source src="./images/slide-video.mp4" type="video/mp4">
+                </video>
+              </a>
+              <a href="#" class="right">
+                <img src="./images/slide_btm.webp" alt="XC90 Recharge가 바닷가에 서있는 모습">
+              </a>
+              <span class="btn_auto">auto</span>
+            </div>
+          </div>
+          <p class="gallery"><a href="#">갤러리 보기 ></a></p>
+        </article>
+
+        <!-- 완료(확완) -->
+        <div class="drive">
+          <h2>XC90 Recharge를 만나보십시오.</h2>
+          <h3>향상된 운전 기능을 경험할 수 있습니다.</h3>
+          <ul class="exp">
+            <li class="exp_tit">A smooth expression of power
+              <ol>
+                <li>XC90 Recharge는 최신 플러그인 하이브리드 파워트레인으로 구동됩니다. 높은 출력과 뛰어난 주행을 제공합니다.</li>
+              </ol>
+            </li>
+            <li class="exp_tit">Electric range
+              <ol>
+                <li>한 번의 충전으로 오래 주행할 수 있습니다. 순수 전기 모드에서 XC90 Recharge는 배기 가스 배출 없이 최대 53km를 주행할 수 있습니다.</li>
+              </ol>
+            </li>
+            <li class="exp_tit">Improved AWD capability
+              <ol>
+                <li>
+                  후방의 강력한 전기 모터는 AWD 특성을 향상시켜 미끄러운 도로에서도 주행을 최적화 합니다.
+                </li>
+              </ol>
+            </li>
+          </ul>
+          <button>자세히 보기</button>
+        </div>
+
+        <!--  영상, 클릭 버전 제이쿼리 완료 (반응형확완) -->
+        <article class="safe">
+          <h2>안전 보조 기능.<br />그것은 우리의 DNA에 있습니다.</h2>
+          <div class="safe_movie">
+            <p class="slide-1 on">
+              <video autoplay muted loop playsinline>
+                <source src="./images/safety01.mp4" type="video/mp4">
+              </video>
+            </p>
+            <p class="slide-2">
+              <video autoplay muted loop playsinline>
+                <source src="./images/safety02.mp4" type="video/mp4">
+              </video>
+            </p>
+            <p class="slide-3">
+              <video autoplay muted loop playsinline>
+                <source src="./images/safety03.mp4" type="video/mp4">
+              </video>
+            </p>
+            <span class="btn_auto">auto</span>
+          </div>
+          <div class="safe_text">
+            <ul class="safe_list">
+              <li class="one on"><a href="#">1. 위험에서 지켜줍니다</a></li>
+              <li class="two"><a href="#">2. 공간을 확보하세요</a></li>
+              <li class="three"><a href="#">3. 운전을 돕습니다</a></li>
+            </ul>
+            <div class="safe_exp">
+              <p class="one on">지능형 안전 보조 기술은 낮이나 밤 언제든 다른 차량이나 보행자, 자전거 및 대형 동물을 감지하고 피할 수 있도록 합니다. 시스템이 먼저 경고한 다음 운전자가
+                반응하지 않으면 자동 브레이크를 작동합니다.</p>
+              <p class="two">360° 뷰를 제공하는 네 대의 카메라는 좁은 공간에서도 자신 있게 주차할 수 있도록 돕습니다.</p>
+              <p class="three">사각지대 정보 시스템(BLIS™)은 차선 변경 시 능동적으로 도움을 지원합니다. 만약 인접 차선에 있는 차량과의 충돌 위험이 발생하면, BLIS가 스티어링 휠을
+                미세하게 움직여 귀하와 귀하의 차량 그리고 사랑하는 이들이 안전한 위치로 돌아오도록 돕습니다.</p>
+            </div>
+            <button>자세히 보기</button>
+          </div>
+        </article>
+        <div class="safe_alert">
+          <p>1.같은 방향으로 이동하는 차량, 보행자 및 자전거는 특정 속도 및 조건에서 감지 가능합니다. 감지 시스템은 조명되는 물체에 따라 달라지며, 어두워질 때 차량의 전방 및 후방 조명이 작동해야
+            합니다.<br /> 안전 운전의 책임은 항상 운전자에게 있습니다.</p>
+          <p>2.운전자 지원 기능들은 운전자의 주의와 판단을 대체하지 않습니다. 측후면 접근 차량 경보 기능은 특정 상황에서 기능이 제한될 수 있습니다. 브레이크의 개입은 저속에서만 작동합니다.</p>
+        </div>
+
+        <!-- 장점 완료(확완) -->
+        <article class="pros">
+          <div class="pros_htit">
+            <h2>
+              항상 귀하와 함께 합니다.
+            </h2>
+            <h3>XC90 Recharge에 적용된 첨단 기술은 주행 시 꼭 필요한 편안함과 이동성을 제공해줍니다.</h3>
+          </div>
+          <ul class="pros_list">
+            <li><img src="./images/btm01.jpg" alt="볼보 XC90 리차지가 강가를 따라 커브를 돌고 있습니다.">
+              <ol>
+                <li class="pros_tit">A helping hand</li>
+                <li class="pros_txt">부드러운 제어를 경험해보십시오. 운전자 보조 기능은 속도 조절을 통해 전방 차량과의 안전거리를 유지하도록 하며, 정교한 스티어링 휠 조정으로 차선을
+                  벗어나지 않도록 도와줍니다. 커브에서는 탑승자의 편안함을 위해 속도를 최적화 합니다.</li>
+              </ol>
+            </li>
+            <li><img src="./images/btm02.webp" alt="한 갈색 머리 남자가 볼보 XC90 리차지 실내에 앉아 햇빛을 쬐고 있습니다">
+              <ol>
+                <li class="pros_tit">Cleaner cabin air</li>
+                <li class="pros_txt">세계 최초 공기질 시스템의 첨단 공기 청정 기능으로 유해한 PM 2.5 초미세먼지의 실내 유입을 최대 95%까지 막아줍니다. 귀하와 탑승자가 외부
+                  환경에 구애 받지 않고 더 건강하고 맑은 공기를 즐길 수 있도록 합니다.
+                </li>
+              </ol>
+            </li>
+            <li><img src="./images/btm03.webp" alt="볼보 XC90 리차지 내부에 장착된 Bowers &amp; Wilkins 스피커">
+              <ol>
+                <li class="pros_tit">Bowers & Wilkins</li>
+                <li class="pros_txt">세심하게 배치 및 장착된 Bowers & Wilkins의 하이엔드 스피커는 차 안 어디에서든 황홀한 오디오 경험을 제공합니다.</li>
+              </ol>
+            </li>
+          </ul>
+          <button>자세히 보기</button>
+        </article>
+
+        <!-- 시승신청 완료(확완) -->
+        <div class="test-drive">
+          <div class="test_txt">
+            <h3>시승신청</h3>
+            <p>전기모드 주행거리가 약 80% 향상된 XC90 리차지 플러그인 <span> 하이브리드를 지금 경험해보세요.</span></p>
+            <button>자세히보기</button>
+          </div>
+        </div>
+
+        <!--다른모델검색 완료(반응형확인완) -->
+        <article class="other">
+          <h4>다른 모델 검색하기</h4>
+          <div class="other_src">
+            <ul class="other_left">
+              <li><a href="#"><img src="./images/xc90-hero-4x3.webp" alt="xc90"></a>
+                <ol>
+                  <li class="other_tit">Volvo XC90</li>
+                  <li class="other_txt">충전이 옵션이 아닌 경우, 마일드 하이브리드 모델을 살펴보십시오.</li>
+                  <li><a href="#">
+                      <ol class="src">
+                        <li>자세히 보기 ></li>
+                        <li>구입하기 ></li>
+                      </ol>
+                    </a></li>
+                </ol>
+              </li>
+              <li><a href="#"><img src="./images/xc60-recharge-hero-4x3.webp" alt="xc60-recharge"></a>
+                <ol>
+                  <li class="other_tit">Volvo XC60 Recharge</li>
+                  <li class="other_txt">다이내믹한 중형 플러그인 하이브리드 SUV로, 새로워진 디자인 디테일과 TMAP 인포테인먼트로 그 어느때보다 스마트해졌습니다.</li>
+                  <li><a href="#">
+                      <ol class="src">
+                        <li>자세히 보기 ></li>
+                        <li>구입하기 ></li>
+                      </ol>
+                    </a></li>
+                </ol>
+              </li>
+            </ul>
+            <ul class="other_right">
+              <li class="more">More information on XC90 Recharge
+                <ol>
+                  <li><a href="#">Specifications</a></li>
+                  <li><a href="#">Options</a></li>
+                  <li><a href="#">Accessories</a></li>
+                </ol>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <!-- 경고 -->
+        <div class="warning">
+          <p>
+            표시된 기능은 표준 기능이 아닐 수 있으며 일부 스타일, 엔진 옵션 및 영역에서만 사용이 가능할 수도 있습니다.<br />
+            웹사이트에 기재 된 차량의 기능/사양/옵션/차량 제원 등은 부품 수급 등의 사유로 사전 예고 없이 변경될 수 있습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 푸터 완성 (반응형체크완료) -->
+    <footer>
+      <div class="com">
+        <ul>
+          <li><a href="#">쿠키</a></li>
+          <li><a href="#">법적고지사항</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+        <address>Copyright © 2022 Volvo Car Corporation (또는 계열사 또는 라이센스 제공자)</address>
+        <p>본 사이트는 Chrome 브라우저에 최적화되어 있습니다.</p>
+      </div>
+
+    </footer>
+  </div>
+</body>
+
+</html>
